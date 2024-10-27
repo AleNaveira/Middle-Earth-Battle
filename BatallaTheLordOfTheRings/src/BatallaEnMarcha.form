@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="BatallaEnMarcha">
+  <grid id="27dc6" binding="panelPrincipal" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="997" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="91083" binding="panelResultadoBatalla" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="dc1e0" class="javax.swing.JComboBox" binding="comboHeroes">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Trajan Pro" size="11" style="1"/>
+              <model>
+                <item value="1. Aragorn - Humano (150 puntos de vida y 50 unidades de armadura)"/>
+                <item value="2. Boromir - Humano (100 puntos de vida y 60 unidades de armadura)"/>
+                <item value="3. Celeborn - Elfo (180 puntos de vida y 40 unidades de armadura)"/>
+                <item value="4. Faramir - Humano (120 puntos de vida y 60 unidades de armadura)"/>
+                <item value="5. Frodo - Hobbit (30 puntos de vida y 10 unidades de armadura)"/>
+                <item value="6. Gandalf - Humano (300 puntos de vida y 30 unidades de armadura)"/>
+                <item value="7. Legolas - Elfo (150 puntos de vida y 30 unidades de armadura)"/>
+                <item value="8. Merry - Hobbit (20 puntos de vida y 10 unidades de armadura)"/>
+                <item value="9. Pippin - Hobbit (20 puntos de vida y 10 unidades de armadura)"/>
+                <item value="10. Sam - Hobbit (30 puntos de vida y 30 unidades de armadura)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="c9812" class="javax.swing.JComboBox" binding="comboBestias">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Trajan Pro" size="11" style="1"/>
+              <model>
+                <item value="1. Azog - Trasgo (110 puntos de vida y 30 unidades de armadura)"/>
+                <item value="2. Bolg - Orco (50 puntos de vida y 50 unidades de armadura)"/>
+                <item value="3. El Gran Trasgo - Trasgo (150 puntos de vida y 60 unidades de armadura)"/>
+                <item value="4. Gorkil - Trasgo (30 puntos de vida y 10 unidades de armadura)"/>
+                <item value="5. Gothmog - Orco (50 puntos de vida y 40 unidades de armadura)"/>
+                <item value="6. Guritz - Orco (50 puntos de vida y 30 unidades de armadura)"/>
+                <item value="7. Lurtz - Orco (200 puntos de vida y 60 unidades de armadura)"/>
+                <item value="8. Mauhúr - Trasgo (100 puntos de vida y 30 unidades de armadura)"/>
+                <item value="9. Shagrat - Orco (220 puntos de vida y 50 unidades de armadura)"/>
+                <item value="10. Uglúk - Trasgo (120 puntos de vida y 30 unidades de armadura)"/>
+              </model>
+            </properties>
+          </component>
+          <component id="9cd09" class="javax.swing.JList" binding="listaHeroes">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1938b" class="javax.swing.JList" binding="listaBestias">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="221bf" class="javax.swing.JButton" binding="botonIncluirHeroe">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Trajan Pro" size="12" style="1"/>
+              <text value="Añade Héroe"/>
+            </properties>
+          </component>
+          <component id="3de3e" class="javax.swing.JButton" binding="botonBorrarHeroe">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Trajan Pro" size="12" style="1"/>
+              <text value="Excluye Héroe"/>
+            </properties>
+          </component>
+          <component id="17faf" class="javax.swing.JButton" binding="botonIncluirBestia">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Trajan Pro" size="12" style="1"/>
+              <text value="Añade Bestia"/>
+            </properties>
+          </component>
+          <component id="46f62" class="javax.swing.JButton" binding="botonBorrarBestia">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Trajan Pro" size="12" style="1"/>
+              <text value="Excluye Bestia"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <scrollpane id="1889e" binding="barraScroll">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8fc03" class="javax.swing.JTextArea" binding="textoBatallaResultado">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="e28f2" class="javax.swing.JButton" binding="botonBatalla">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Trajan Pro" size="12" style="1"/>
+          <text value="¡QUE COMIENCE LA BATALLA!"/>
+        </properties>
+      </component>
+      <component id="6b556" class="javax.swing.JButton" binding="botonReanudar">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Trajan Pro" size="12" style="1"/>
+          <text value="Reiniciar Batalla"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
