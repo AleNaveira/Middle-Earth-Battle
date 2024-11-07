@@ -8,7 +8,7 @@ This README is avaliable in [Español](#version-español)
 
 ## 2. Key Features
 
-- **Character Selection: ** Users can choose from various hero types such as humans, hobbits, and elves (Aragorn, Legolas, Frodo…) and beasts like goblins and orcs (Azog, Bolg, Lurtz...) to form their armies..
+- **Character Selection:** Users can choose from various hero types such as humans, hobbits, and elves (Aragorn, Legolas, Frodo…) and beasts like goblins and orcs (Azog, Bolg, Lurtz...) to form their armies..
 - **Combat System:** The game follows a turn-based system where, in each turn, a character from one army attacks a single adversary in the opposing army. Each combat considers attack strength, armor resistance, and life points. Each combatant launches an attack (based on a roll of two dice with values ranging from 0 to 90/100, according to the character's strength attributes, choosing the highest roll) against an opponent. Damage is only inflicted if the attacker’s offensive power exceeds the defender's armor level. In that case, the damage dealt is the difference between the attack power and the opponent's armor level. Each turn, all confrontations take place, and life points are reduced accordingly.
 - ** Flexible Army Sizes:** Users can choose the number of warriors for each army from all available characters. It is not necessary to have an equal number of combatants in each army. If one army has more members than the other, the extra characters will not participate in that turn of battle. When a character's life points reach zero or below, they die, are removed from their position, and subsequent teammates move up to fill the gap. This allows inactive characters to enter the battle in the following turns.
 - **Graphical Interface (GUI):** Implemented with Swing, allowing users to visually interact to select, add, remove characters from the selected list, or execute the battle.
@@ -16,7 +16,7 @@ This README is avaliable in [Español](#version-español)
 
 ## 3. Prerequisites
 
-a) **Java JDK **
+a) **Java JDK**
 
 The project functions correctly with the following Java versions:
 
